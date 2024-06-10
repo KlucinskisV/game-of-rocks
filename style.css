@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floor {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  background: url("./Ground_02.png");
+  transform: rotate3d(0, 0, 0, 0deg);
+  position: absolute;
+}
+
+#canvas1 {
+  border: 1px solid black;
+  background-color: rgba(203, 199, 174, 0.556);
+  background: url("./img/Ground_02.png");
+  cursor: url("/hammerpngmini.png"), auto;
+}
